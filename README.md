@@ -12,6 +12,8 @@ We assume you have a command line interface (CLI) in your OS
 (bash, zsh, cygwin, git-bash, power-shell etc.). We assume this CLI sets 
  the variable `$(pwd)` to the current directory. If it doesn't replace
  all mentions of `$(pwd)` with the current directory you are in. 
+ 
+ When using Windows PowerShell all instances of `"$(pwd)"` should be replaced with `${PWD}`.
 
 ### Install Docker
 
